@@ -1,5 +1,5 @@
-# Simple File System Implementation
-This project implements a single file simple file system implementation in **C**. Maximum size of the file system can be upto 512MB. Inıtially, it starts from approximately 1MB and allocates more space as new files are created in the system.
+# Simple File System Library Implementation
+This project implements a single file simple file system implementation in **C**. Maximum size of the file system can be upto 512MB. Initially, it starts from approximately 1MB and allocates more space as new files are created in the system.
 
 
 ## Installation and Compilation
@@ -7,6 +7,8 @@ This project uses *Makefile* and *gcc*. These packages should be installed into 
 ```
 make
 ```
+This process creates the file system library. This can later be used as desired. Also, the project includes a couple test files for simple tests.
+
 
 ## File System Details
 The first block is occupied with superblock information. I’ve left this part of the memory empty so that this file system’s superblock information can be implemented according to the needs of the situation.
